@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background: rgb(5, 5, 5);
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(23, 161, 161) !important;
+}
+
+#navbarSupportedContent {
+  padding-left: 1%;
+}
+#navbarSupportedContent a {
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid rgb(3, 189, 179);
+}
+#navbarSupportedContent button {
+  background: rgb(23, 161, 161) !important;
+  width: 5rem;
+  border-radius: 15px;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(19, 22, 22);
+}
+#home {
+  background: linear-gradient(rgba(44, 44, 43, 0.9), rgba(32, 32, 32, 0.3)),
+    url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  color: rgb(223, 241, 241);
+  padding-bottom: 200px;
+}
+#home h1 {
+  font-size: 70px;
+  color: white;
+  letter-spacing: 3px;
+  padding-top: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px rgb(235, 217, 217);
+  text-shadow: 0px 3px 0px rgb(235, 217, 217);
+  text-shadow: 0px 3px 0px rgb(235, 217, 217);
+  text-shadow: 0px 3px 0px rgb(235, 217, 217);
+  text-shadow: 0px 3px 0px rgb(235, 217, 217);
+}
+#home p {
+  font-size: 15px;
+  color: aliceblue;
+  padding-top: 30px;
+}
+#home .input-group {
+  width: 40%;
+  height: 45px;
+}
+.signin {
+  background: rgb(23, 161, 161) !important;
+  color: azure;
+}
+
+#about {
+  background: linear-gradient(#f39393, #fa7e7e 100%);
+}
+.home button {
+  color: aliceblue;
+}
+#about h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: aliceblue;
+}
+#about h3 {
+  font-weight: 800;
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 40px;
+}
+.img-fluid {
+  width: 500px;
+  height: 200px;
+  padding-left: 30%;
+  padding-top: 10%;
+}
+
+#product {
+  background: rgb(3, 3, 3);
+  text-align: center;
+  padding-bottom: 100px;
+}
+#product h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(255, 252, 252);
+}
+#product img {
+  width: 280px;
+  height: 300px;
+  padding-left: 15%;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background: rgb(255, 255, 255) !important;
+  border: none !important;
+
+  overflow: hidden;
+
+  margin: 20px auto 20px auto;
+  padding-top: 22px;
+  padding-left: 10px;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+.card-title {
+  margin-bottom: 900%;
+
+  font-size: 100%;
+}
+.card:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+.card-body {
+  text-align: center;
+  padding-right: 20%;
+}
+
+.card-body span i {
+  color: #a5a518;
+  /* Set star color to yellow */
+}
+
+.card-body .fa-star {
+  font-size: 18px; /* Adjust star size */
+  margin: 0 2px;
+  color: #ffd700;
+  /* Add spacing between stars */
+}
+
+.card p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.card button {
+  background-color: #060706; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none;
+  padding: 2px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgb(
+    23,
+    161,
+    161
+  ) !important; /* Set button background color on hover */
+}
+#contact {
+  background-color: #f4f4f4;
+  padding: 50px 50px;
+}
+
+#contact h1 {
+  color: #000000;
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+.box {
+  width: 70% !important;
+  height: 70%;
+  background: #fcfdfd;
+  margin-top: 10%;
+}
+
+form {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#contact img {
+  width: 90%;
+  height: 90%;
+}
+
+#contact input {
+  margin: 10px 0px;
+}
+#contact textarea {
+  margin: 20px 0px;
+}
